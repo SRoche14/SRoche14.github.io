@@ -3,10 +3,6 @@ hr {
   margin-bottom: 20px;
 }
 
-body {
- background: #000000
-}
-
 /* Post navigation links */
 .post_navi {
   display: flex;
