@@ -28,7 +28,7 @@
                 <xsl:value-of select="pubDate"/>
             </div>
             <div class="description">
-                <xsl:value-of select="description"/>
+                <xsl:value-of select="description" disable-output-escaping="yes"/>
             </div>
         </div>
     </xsl:template>
