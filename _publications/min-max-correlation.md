@@ -8,7 +8,7 @@ doi: https://arxiv.org/abs/2502.12519
 slides: false
 ---
 
-## Abstrac
+## Abstract
 
 We present an efficient algorithm for the min-max correlation clustering problem. The input is a complete graph where edges are labeled as either positive (+) or negative (−), and the objective is to find a clustering that minimizes the ℓ ∞-norm of the disagreement vector over all vertices.
 We resolve this problem with an efficient (3+ϵ)-approximation algorithm that runs in nearly linear time, Õ (|E+|), where |E+| denotes the number of positive edges. This improves upon the previous best-known approximation guarantee of 4 by Heidrich, Irmai, and Andres, whose algorithm runs in O(|V|2+|V|D2) time, where |V| is the number of nodes and D is the maximum degree in the graph.
