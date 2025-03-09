@@ -39,3 +39,8 @@ defaults:
       type: post
     values:
       tags: Other
+      
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
