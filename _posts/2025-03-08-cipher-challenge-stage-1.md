@@ -1,6 +1,6 @@
 ## Stage 1 - Simon Singh Cipher Challenge
 
-I recently came across the Simon Singh Cipher Challenge, which was wrapped up in 2000 after over a year of people working on it. 
+I recently came across the [Simon Singh Cipher Challenge](https://simonsingh.net/cryptography/cipher-challenge/), which was wrapped up in 2000 after over a year of people working on it. 
 Solving ciphers has always been interesting to me, so I figured I would give some of the stages a shot!
 
 The first stage starts shows the following text:
