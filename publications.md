@@ -3,6 +3,7 @@ layout: default
 title: Publications
 ---
 
+<h1 class="mt-4">Publications</h1>
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">
