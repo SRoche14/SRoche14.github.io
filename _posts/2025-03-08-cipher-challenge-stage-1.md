@@ -16,7 +16,7 @@ immediately wrote some code to check the frequency of the letters. The reason is
 <br>
 The following graph shows the average frequency of English letters throughout English texts vs. the frequency of letters in the encypted text:
 <br>
-<img width="781" alt="Screenshot 2025-03-08 at 10 24 44 PM" src="https://github.com/user-attachments/assets/80ec5dfc-7853-4d39-8de0-0e540aa96a78" />
+<a href="https://en.m.wikipedia.org/wiki/File:English_letter_frequency_%28frequency%29.svg"><img width="781" alt="Screenshot 2025-03-08 at 10 24 44 PM" src="https://github.com/user-attachments/assets/80ec5dfc-7853-4d39-8de0-0e540aa96a78"/></a>
 
 With this, we can make some assumptions and see if they play out. I first substituted 'X' for 'E' and 'J' for 'T'. Then, seeing that the cipher text uses apostrophes, I guessed that 'R' is actually
 'S'. From here, it was a matter of more educated guesses and seeing if I could derive common words (for example, 'M' was a standalone letter, so I guessed it was 'A').
