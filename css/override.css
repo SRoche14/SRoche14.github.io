@@ -43,22 +43,26 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
 /* publication styling */
+@import 'bootstrap/bootstrap';
+
+/* add additional CSS rules below */
+
 .pubitem {
   margin: 2em 0;
   line-height: 1em;
 }
 
 .pubtitle {
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   line-height: 1.2em;
   font-weight: bold;
 }
 
-.pubauthors,
-.pubinfo {
+.pubauthors, .pubinfo {
   font-size: 75%;
-  margin-bottom: 0.75em;
+  margin-bottom: .75em;
 }
 
 .pubteaser {
@@ -77,4 +81,20 @@ hr {
 
 .publinks {
   font-size: 75%;
+}
+
+.publication-authors {
+  margin: 0.5rem 0;
+}
+
+.publication-info {
+  margin: 0.5rem 0;
+}
+
+.publication-teaser {
+  margin: 2em;
+}
+
+.publication-teaser img {
+  border: none;
 }
