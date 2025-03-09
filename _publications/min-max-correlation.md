@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: Min-Max Correlation Clustering via Neighborhood Similarity
 authors: Nairen Cao, Steven Roche, Hsin-Hao Su
 publication: ICALP
