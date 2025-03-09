@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: page
 title: Publications
 ---
 {% assign publications = site.publications | sort: "year" | reverse %}
