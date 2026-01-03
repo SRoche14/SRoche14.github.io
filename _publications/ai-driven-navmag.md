@@ -1,10 +1,10 @@
 ---
 layout: publication
-title: AI-Driven Magnetic Navigation: Predicting Position from Anomalies
+title: "AI-Driven Magnetic Navigation: Predicting Position from Anomalies"
 authors: Steven Roche, Richard Saltus, Manoj Nair
 publication: AGU24
 year: 2024
-doi: https://agu24.ipostersessions.com/default.aspx?s=12-BD-AE-72-FA-22-24-56-FA-63-AE-73-0B-27-2C-B0
+doi: "https://agu24.ipostersessions.com/default.aspx?s=12-BD-AE-72-FA-22-24-56-FA-63-AE-73-0B-27-2C-B0"
 slides: false
 ---
 
