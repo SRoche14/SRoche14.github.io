@@ -97,7 +97,7 @@ Fortunately, fixing this is not too bad. All you need is a new XT60 connector, a
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start;">
   <figure style="width: 49%; min-width: 280px; margin: 0;">
-    <img src="{{ '/images/robotPressurizer/solderXT60.jpg' | relative_url }}" alt="XT60 connector soldered onto new wire." style="width: 100%; height: auto;">
+    <img src="{{ '/images/robotPressurizer/solderXT60.JPG' | relative_url }}" alt="XT60 connector soldered onto new wire." style="width: 100%; height: auto;">
     <figcaption style="font-size: 0.9em; margin-top: 6px; text-align: center;">XT60 connector soldered onto new wire.</figcaption>
   </figure>
   <figure style="width: 49%; min-width: 280px; margin: 0;">
