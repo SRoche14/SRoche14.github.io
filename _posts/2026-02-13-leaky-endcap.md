@@ -7,11 +7,11 @@ After a long day of testing in MITRE's Blue Tech research facility, I was feelin
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start;">
   <figure style="width: 49%; min-width: 280px; margin: 0;">
-    <img src="{{ '/images/robotPressurizer/mitrePool.jpg' | relative_url }}" alt="Testing in MITRE's Pool" style="width: 100%; height: auto;">
+    <img src="{{ '/images/robotPressurizer/mitrePool.JPG' | relative_url }}" alt="Testing in MITRE's Pool" style="width: 100%; height: auto;">
     <figcaption style="font-size: 0.9em; margin-top: 6px; text-align: center;">Testing in MITRE's pool during data collection.</figcaption>
   </figure>
   <figure style="width: 49%; min-width: 280px; margin: 0;">
-    <img src="{{ '/images/robotPressurizer/mitreCUREE.jpg' | relative_url }}" alt="CUREE at MITRE with MoCap reflectors" style="width: 100%; height: auto;">
+    <img src="{{ '/images/robotPressurizer/mitreCUREE.JPG' | relative_url }}" alt="CUREE at MITRE with MoCap reflectors" style="width: 100%; height: auto;">
     <figcaption style="font-size: 0.9em; margin-top: 6px; text-align: center;">CUREE at MITRE's pool with motion-capture reflectors attached.</figcaption>
   </figure>
 </div>
