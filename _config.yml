@@ -7,7 +7,7 @@ baseurl: ""
 # Header / about-page details
 first_name: "Steven"
 last_name: "Roche"
-tagline: "MIT–WHOI Joint Program &nbsp;|&nbsp; Reinforcement Learning &middot; Underwater Robotics &middot; Robotic Perception"
+subtitle: "MIT–WHOI Joint Program &nbsp;|&nbsp; Reinforcement Learning &middot; Underwater Robotics &middot; Robotic Perception"
 email: "rochesh@mit.edu"
 linkedin_username: "steven-roche-a7a16b22b"
 github_username: "SRoche14"
