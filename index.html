@@ -1,0 +1,79 @@
+---
+layout: default
+title: About
+---
+<section class="about">
+  <header class="about-header">
+    <h1 class="about-name"><span class="first">{{ site.first_name }}</span> {{ site.last_name }}</h1>
+    <p class="about-tagline">{{ site.tagline }}</p>
+  </header>
+
+  <figure class="profile">
+    <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Photo of {{ site.author }}">
+    <figcaption>
+      MIT AeroAstro &middot; WHOI<br>
+      {{ site.email | replace: "@", " [at] " | replace: ".", " [dot] " }}
+    </figcaption>
+  </figure>
+
+  <div class="about-bio">
+    <p>
+      I am a PhD student in the <a href="https://mit.whoi.edu/">MIT–WHOI Joint Program</a>, based in MIT AeroAstro's
+      <a href="https://acl.mit.edu/">Aerospace Controls Laboratory</a> under
+      <a href="https://www.mit.edu/~jhow/">Prof. Jonathan How</a> and working closely with
+      <a href="https://warp.whoi.edu/">WARPLab</a> at Woods Hole under <a href="https://www.whoi.edu/oceanus/featured-researcher/yogesh-girdhar/">Dr. Yogesh Girdhar</a>.
+      I am supported by a <a href="https://www.smartscholarship.org/">DoD SMART Scholarship</a>.
+    </p>
+    <p>
+      My research aims to make autonomous underwater vehicles capable, robust field instruments for
+      ocean science, with a focus on <strong>coral reefs</strong>. I work on <strong>reinforcement learning</strong>
+      for vehicle control, closing the sim-to-real gap with high-fidelity physics such as
+      <strong>computational fluid dynamics</strong>, and on <strong>robotic perception</strong> for
+      autonomous sampling, including environmental DNA collection on reefs.
+    </p>
+    <p>
+      Before MIT, I was a <strong>Gabelli Presidential Scholar</strong> at Boston College, where I earned two degrees,
+      a B.S. in Computer Science and a B.S. in Mathematics. There I worked on graph algorithms (min-max correlation
+      clustering, my Scholar of the College thesis) and, as a NOAA Hollings Scholar, on machine learning for
+      GPS-denied magnetic navigation. I have also contributed to robot learning for quadruped locomotion and to
+      whole-brain voltage imaging in larval zebrafish.
+    </p>
+  </div>
+
+  {% include social.html %}
+</section>
+
+<section class="section">
+  <h2 class="section-title">news</h2>
+  <table class="news">
+    {% for item in site.data.news limit: 6 %}
+    <tr>
+      <th scope="row">{{ item.date }}</th>
+      <td>{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+
+<section class="section">
+  <h2 class="section-title">selected publications</h2>
+  {% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+  <ol class="pubs">
+    {% for pub in selected %}{% include pub_entry.html pub=pub %}{% endfor %}
+  </ol>
+  <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
+</section>
+
+<section class="section">
+  <h2 class="section-title">outside the lab</h2>
+  <p>When I'm not in the lab, I run trail ultramarathons, including races put on by the <a href="https://www.trailanimals.com/">Trail Animals Running Club (TARC)</a>:</p>
+  <ul class="races">
+    <li><strong>TARC Fall Classic, 50 miles</strong> (September 2026): 15th of 63 men in 10:58:51. <a href="https://runsignup.com/Race/Results/213964#resultSetId-684702;perpage:100">Results</a></li>
+    <li><strong>TARC Spring Classic, 50K</strong> (April 2025): 16th of 47 men (4th in men 20–29) in 6:31:13. <a href="https://www.webscorer.com/racedetails?raceid=387644&amp;did=513650&amp;gender=M">Results</a></li>
+  </ul>
+  <div class="photo-row">
+    <img src="{{ '/images/running/tarc-fall-50m-3.jpg' | relative_url }}" alt="Steven at the TARC Fall Classic 50 mile" loading="lazy">
+    <img src="{{ '/images/running/tarc-fall-50m-1.jpg' | relative_url }}" alt="Steven with family at the TARC Fall Classic aid station" loading="lazy">
+    <img src="{{ '/images/running/tarc-fall-50m-2.jpg' | relative_url }}" alt="Steven with a friend at the TARC Fall Classic" loading="lazy">
+  </div>
+</section>

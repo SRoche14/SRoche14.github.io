@@ -1,5 +1,8 @@
-## Fixing your leaky end cap, or how to make a robot pressurizer
-
+---
+title: "Fixing your leaky end cap, or how to make a robot pressurizer"
+description: "A hands-on guide to finding and fixing leaks in Blue Robotics–style underwater vehicle housings."
+tags: [robotics]
+---
 Summary: This blog post is primarily for those who have little hardware experience who have found themselves in a robotics lab. Particularly, if you are a software person working with underwater vehicles for the first time, this is for you. After reading this you will understand how to find a leak on a blue robotics based robot, how to fix a leaky end cap penetrator, and learn about one of WARPLab's vehicles at WHOI. This was last updated February of 2026. I am not associated with Blue Robotics nor do I make any profit from recommending particular parts.
 
 <h2>The Leak</h2>

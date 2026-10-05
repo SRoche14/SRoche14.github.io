@@ -1,0 +1,39 @@
+# Cards shown on /projects. `image` is relative to the site root; `url` can be internal or external.
+# `fit: contain` letterboxes diagrams instead of cropping them to fill the card.
+# `category` is `research` or `side` and picks the section on /projects.
+- category: research
+  title: CORL-AUV
+  description: CFD-oriented reinforcement learning for 6-DOF control of autonomous underwater vehicles, deployed zero-shot on a coral reef.
+  image: /images/thumbs/corl-auv.png
+  fit: contain
+  url: /publications/corl-auv
+- category: research
+  title: Autonomous eDNA Sampling (In Progress)
+  description: Autonomous environmental DNA collection on coral reefs to monitor biodiversity and reef health. Supported by the WHOI Ocean Ventures Fund.
+  image: /images/thumbs/curee.jpg
+- category: research
+  title: Segmentation Multi-Object Tracking (In Progress)
+  description: Improving Segmentation Multi-Object Tracking. More coming soon...
+  image: /images/thumbs/seg-mot.jpg
+- category: research
+  title: Harmonic Quadruped Policies
+  description: Locomotion policies that express each joint trajectory as a command-conditioned Fourier series, modulated online by learned feedback and tested on a Unitree Go2.
+  image: /images/thumbs/harmonic-quadruped.png
+  url: /publications/harmonic-quadruped
+- category: research
+  title: AI-Driven MagNav
+  description: Predicting aircraft position from magnetic anomalies with 1-D CNNs, without GPS or a known initial position.
+  image: /images/thumbs/ai-driven-navmag.png
+  fit: contain
+  url: /publications/ai-driven-navmag
+- category: research
+  title: Min-Max Correlation Clustering
+  description: A nearly linear-time (3+ε)-approximation for min-max correlation clustering, extended to MPC and streaming.
+  image: /images/thumbs/min-max-correlation.png
+  fit: contain
+  url: /publications/min-max-correlation
+- category: side
+  title: Smart Mirror
+  description: A Raspberry Pi behind see-through mirror glass in a wooden frame, showing time, weather, moon phase, hockey scores, and Chuck Norris facts.
+  image: /images/thumbs/smart-mirror.jpg
+  url: /projects/smart-mirror/

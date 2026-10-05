@@ -1,0 +1,26 @@
+{%- comment -%} Renders one publication row. Pass pub=<publication document>. {%- endcomment -%}
+{%- assign pub = include.pub -%}
+<li class="pub">
+  <div class="pub-thumb">
+    {% if pub.image %}
+    <a href="{{ pub.url | relative_url }}"><img src="{{ '/images/thumbs/' | append: pub.image | relative_url }}" alt="{{ pub.title }} teaser" loading="lazy"></a>
+    {% endif %}
+  </div>
+  <div class="pub-body">
+    <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+    {%- capture me -%}<strong>{{ site.author }}</strong>{%- endcapture -%}
+    <div class="pub-authors">{{ pub.authors | replace: site.author, me }}</div>
+    <div class="pub-venue"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+    <div class="pub-links">
+      {% if pub.arxiv %}<a class="btn" href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+      {% if pub.pdf %}<a class="btn" href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
+      {% if pub.doi %}<a class="btn" href="{{ pub.doi }}">DOI</a>{% endif %}
+      {% if pub.scholar %}<a class="btn" href="{{ pub.scholar }}">Scholar</a>{% endif %}
+      {% if pub.poster %}<a class="btn" href="{{ pub.poster }}">Poster</a>{% endif %}
+      {% if pub.code %}<a class="btn" href="{{ pub.code }}">Code</a>{% endif %}
+      {% if pub.video %}<a class="btn" href="{{ pub.video }}">Video</a>{% endif %}
+      {% if pub.bib %}<a class="btn" href="{{ '/download/' | append: pub.slug | append: '.bib' | relative_url }}">BibTeX</a>{% endif %}
+      <a class="btn" href="{{ pub.url | relative_url }}">Abstract</a>
+    </div>
+  </div>
+</li>

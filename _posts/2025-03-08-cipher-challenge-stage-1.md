@@ -1,5 +1,8 @@
-## Stage 1 - Simon Singh Cipher Challenge
-
+---
+title: "Stage 1 - Simon Singh Cipher Challenge"
+description: "Cracking a monoalphabetic substitution cipher with letter-frequency analysis and a little C++."
+tags: [puzzles]
+---
 I recently came across the [Simon Singh Cipher Challenge](https://simonsingh.net/cryptography/cipher-challenge/), which was wrapped up in 2000 after over a year of people working on it. 
 Solving ciphers has always been interesting to me, so I figured I would give some of the stages a shot!
 

@@ -1,46 +1,52 @@
-title: "Tactical Code"
+title: "Steven Roche"
 author: "Steven Roche"
-description: "Welcome! This blog will focus on various coding projects, ranging from simple creations to ones more focused on autonomous systems. There will also be a focus on developing projects geared toward defense applications." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Steven Roche — PhD student in the MIT–WHOI Joint Program working on reinforcement learning and autonomy for underwater robots."
+url: "https://sroche14.github.io"
+baseurl: ""
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-# twitter_username: "twitteruser"
+# Header / about-page details
+first_name: "Steven"
+last_name: "Roche"
+tagline: "MIT–WHOI Joint Program &nbsp;|&nbsp; Reinforcement Learning &middot; Underwater Robotics &middot; Robotic Perception"
+email: "rochesh@mit.edu"
 linkedin_username: "steven-roche-a7a16b22b"
 github_username: "SRoche14"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+scholar_userid: "GPe0pz4AAAAJ"
+cv_pdf: "/download/Steven_Roche_cv.pdf"   # comment out to hide the "cv" nav link
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
-
-rss: rss
-
+markdown: kramdown
 kramdown:
+  input: GFM
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      tags: Other
-      
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:name
+      layout: post
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,32 @@
+# Newest first. `text` is rendered as Markdown.
+- date: Sep 2026
+  text: >-
+    Preprint of **Feedback-Modulated Harmonic Policies for Quadruped Locomotion** posted to arXiv.
+    [Paper](https://arxiv.org/abs/2609.17946)
+- date: Aug 2026
+  text: >-
+    **Voltage imaging of neurons distributed across entire brains of larval zebrafish** published in *Nature Methods*.
+    [Paper](https://doi.org/10.1038/s41592-026-03179-7)
+- date: Jul 2026
+  text: >-
+    Preprint of **CORL-AUV: CFD Oriented Reinforcement Learning for Autonomous Underwater Vehicles** posted to arXiv.
+    [Paper](https://arxiv.org/abs/2607.09557) / [Project](/publications/corl-auv)
+- date: 2026
+  text: >-
+    Received a **WHOI Ocean Ventures Fund** award for *Autonomous eDNA Sampling for Coral Reefs*.
+- date: Feb 2026
+  text: >-
+    New blog post: [how to find and fix a leaky end cap on an underwater robot](/2026/02/13/leaky-endcap.html).
+- date: 2025
+  text: >-
+    Started graduate school in the **MIT–WHOI Joint Program** (MIT AeroAstro) as a **DoD SMART Scholar**.
+- date: 2025
+  text: >-
+    **Min-Max Correlation Clustering via Neighborhood Similarity** accepted to ESA 2025.
+    [Paper](https://arxiv.org/abs/2502.12519)
+- date: May 2025
+  text: >-
+    Graduated from Boston College as a Gabelli Presidential Scholar with a B.S. in Computer Science and a B.S. in Mathematics.
+- date: Dec 2024
+  text: >-
+    Presented **AI-Driven Magnetic Navigation** at AGU24. [Poster](/publications/ai-driven-navmag)

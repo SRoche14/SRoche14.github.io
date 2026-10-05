@@ -1,0 +1,22 @@
+<header class="site-header">
+  <nav class="container nav">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">
+      {% if page.url != "/" %}<span class="first">{{ site.first_name }}</span> {{ site.last_name }}{% endif %}
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <ul class="nav-links">
+      {% assign section = page.url | split: "/" | slice: 1 | first %}
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>about</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}" {% if section == "publications" %}class="active"{% endif %}>publications</a></li>
+      <li><a href="{{ '/projects/' | relative_url }}" {% if section == "projects" %}class="active"{% endif %}>projects</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}" {% if section == "blog" or page.layout == "post" %}class="active"{% endif %}>blog</a></li>
+      {% if site.cv_pdf %}<li><a href="{{ site.cv_pdf | relative_url }}">cv</a></li>{% endif %}
+      <li>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
